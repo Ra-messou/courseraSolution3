@@ -1,0 +1,60 @@
+*{
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.center{
+	text-align: center;
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+span.icon-bar{
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #000;
+}
+
+#header-nav{
+	margin: 0;
+	background-color: gray;
+	border: 1px solid black;
+	border-radius: 0;
+}
+
+#header-nav a{
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#collapsable-nav>#nav-list ul{
+	border: 1px solid black;
+}
+#collapsable-nav>#nav-list li{
+	border: 1px solid black;
+	text-align: center;
+}
+
+#collapsable-nav>#nav-list li a{
+	font-weight: bold;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+section>div{
+	background-color: gray;
+}
+section{
+	font-size: 18px;
+}
+
+@media (min-width: 768px){
+	#collapsable-nav>#nav-list ul{
+		display: none;
+}
+	#collapsable-nav>#nav-list li{
+		display: none;
+	}
+}
